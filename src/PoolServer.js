@@ -112,8 +112,8 @@ class PoolServer extends Nimiq.Observable {
 ${poolServer.config.name}
 ${Array(poolServer.config.name.length).fill('-').join('')}
 
-${poolServer.config.poolFee * 100}% pool fee ${/*| automatic payout every <put your schedule here> when confirmed balance is over ${Nimiq.Policy.satoshisToCoins(poolServer.config.autoPayOutLimit)} NIM*/}
-
+${poolServer.config.poolFee * 100}% pool fee
+Payout: every 6 hours
 
 ### STATS ###
 
