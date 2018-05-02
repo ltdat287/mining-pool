@@ -418,7 +418,7 @@ poolMining: {
         return this._averageHashrate;
     }
 }
-PoolServer.DEFAULT_BAN_TIME = 1000 * 60 * 10; // 10 minutes
+PoolServer.DEFAULT_BAN_TIME = 1000 * 30; // 30s
 PoolServer.UNBAN_IPS_INTERVAL = 1000 * 60; // 1 minute
 PoolServer.HASHRATE_INTERVAL = 1000 * 60; // 1 minute
 
